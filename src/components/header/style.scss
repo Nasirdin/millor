@@ -1,0 +1,36 @@
+.header{
+    padding: 10px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        width: 150px;
+    }
+    &__item{
+        margin-right: 25px;
+        .header__items{
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .active{
+        color: #999;
+        
+    }
+    &__link{
+        color: #222;
+        font-size: 18px;
+        font-weight: 500;
+        transition: .5s;
+        &:hover{
+            color: #999;
+        }
+    }
+}
