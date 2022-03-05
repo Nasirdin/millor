@@ -15,9 +15,9 @@ const Header = () => {
                     <li className='header__item'><NavLink className='header__link' activeClassName='active' to='/contacts'>Контакты</NavLink></li>
                 </ul>
                 <ul className='header__items'>
-                    <li className='header__item'><Link className='header__link'>поиск</Link></li>
-                    <li className='header__item'><Link className='header__link'>корзина</Link></li>
-                    <li className='header__item'><Link className='header__link'>войти</Link></li>
+                    <li className='header__item'><Link to='/' className='header__link'>поиск</Link></li>
+                    <li className='header__item'><Link to='/' className='header__link'>корзина</Link></li>
+                    <li className='header__item'><Link to='/' className='header__link'>войти</Link></li>
                 </ul>
             </div>
         </div>

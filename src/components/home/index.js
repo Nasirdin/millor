@@ -1,10 +1,11 @@
 import React from 'react';
+import Section1 from './section1';
 import './style.scss';
 
 const Home = () => {
     return (
         <div>
-            <p>Home</p>
+            <Section1/>
         </div>
     )
 }
