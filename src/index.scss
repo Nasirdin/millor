@@ -24,3 +24,30 @@ a{
     margin: 0 auto;
     padding: 0 20px;
 }
+.linkOrange{
+    padding: 22px 56px;
+    background-color: #F9B300;
+    border-radius: 5px;
+    display: inline-block;
+}
+.bgElem{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: 0; 
+    height: 0;
+    border-top: 600px solid #F9B300;
+    border-left: 600px solid transparent;
+}
+.bgElem-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: 50%; 
+    height: 100%;
+    border-bottom: 940px solid #F9B300;
+    border-left: 900px solid transparent;
+    
+}
