@@ -1,0 +1,12 @@
+.section3{
+    padding: 30px 0;
+    &__title{
+        text-align: right;
+        margin-bottom: 30px;
+    }
+    &__subtitle{
+        text-align: right;
+        max-width: 800px;
+        margin-left: auto;
+    }
+}

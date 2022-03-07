@@ -10,7 +10,7 @@ const Header = () => {
                 <Link to='/'><img className='header__logo' src={logo} alt='Logotype'/></Link>
                 <ul className='header__items'>
                     <li className='header__item'><NavLink className='header__link' activeClassName='NoActive' to='/'>Главная</NavLink></li>
-                    <li className='header__item'><a className='header__link' activeClassName='active' href='#section2'>Каталог товаров</a></li>
+                    <li className='header__item'><NavLink className='header__link' activeClassName='active' to='/catalog'>Каталог товаров</NavLink></li>
                     <li className='header__item'><NavLink className='header__link' activeClassName='active' to='/blog'>Блог</NavLink></li>
                     <li className='header__item'><NavLink className='header__link' activeClassName='active' to='/contacts'>Контакты</NavLink></li>
                 </ul>
